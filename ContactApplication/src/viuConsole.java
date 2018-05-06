@@ -16,7 +16,7 @@ public class viuConsole {
 	private Text txtAddress;
 	private Text txtFileBrowse;
 	private Text txtStatus;
-	private Text text;
+	private Text txtNotes;
 
 	/**
 	 * Launch the application.
@@ -119,8 +119,8 @@ public class viuConsole {
 		btnCancel.setText("Cancel");
 		btnCancel.setBounds(553, 106, 75, 25);
 		
-		text = new Text(grpUserInfo, SWT.BORDER | SWT.WRAP | SWT.V_SCROLL);
-		text.setBounds(229, 27, 399, 73);
+		txtNotes = new Text(grpUserInfo, SWT.BORDER | SWT.WRAP | SWT.V_SCROLL);
+		txtNotes.setBounds(229, 27, 399, 73);
 		
 		Group grpMultiUserUpload = new Group(shlViewinsertupdate, SWT.NONE);
 		grpMultiUserUpload.setText("Multi User Upload");
